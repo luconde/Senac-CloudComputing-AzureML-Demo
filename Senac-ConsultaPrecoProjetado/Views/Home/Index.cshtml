@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Estimar o valor do imóvel com base no modelo criado no Azure Machine Learning</h1>
+</div>
+
+<form method="post" asp-action="Get" asp-controller="Home">
+    <div class="form-group">
+        <label>Número de Quartos:</label>
+        <Input class="form-control" type="Text" name="Quartos" />
+        <br />
+    </div>
+    <div class="form-group">
+        <label>Número de banheiros:</label>
+        <Input class="form-control" type="Text" name="Banheiros" />
+        <br />
+    </div>
+    <div class="form-group">
+        <label>Área útil (m2):</label>
+        <Input class="form-control" type="Text" name="AreaUtil" />
+        <br />
+    </div>
+    <div class="form-group">
+        <label>Área Total:</label>
+        <Input class="form-control" type="Text" name="AreaTotal" />
+        <br />
+    </div>
+    <div class="form-group">
+        <label>Tempo de vida (anos):</label>
+        <Input class="form-control" type="Text" name="Anos" />
+        <br />
+    </div>
+    <input type="submit" value="Pesquisar" />
+</form>

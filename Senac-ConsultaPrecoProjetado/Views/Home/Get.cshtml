@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Resultado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Resultado da Simulação</h1>
+@if(ViewBag.Error)
+{
+    <p>Ocorre um erro no processamento</p>
+    <p>@ViewBag.Message</p>
+}
+else
+{
+    <p>
+        O valor projeto do imóvel é : <b>@ViewBag.Forecast.ToString("C", new System.Globalization.CultureInfo("en-US"))</b>
+    </p>
+}
+
+<br />
+<p>
+    @Html.ActionLink("Voltar", "Index")
+</p>
+
