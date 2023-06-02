@@ -8,6 +8,7 @@
     <WebStackScaffolding_IsLayoutPageSelected>True</WebStackScaffolding_IsLayoutPageSelected>
     <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
+    <NameOfLastUsedPublishProfile>C:\Disciplinas\cloudcomputing\Aula06-Conhecimento-PaaSParte02-IAEndUserComputing\Senac-AzureML-Demo\Senac-ConsultaPrecoProjetado\Properties\PublishProfiles\HostWind.pubxml</NameOfLastUsedPublishProfile>
     <ActiveDebugProfile>HttpLocal-Development-AzureMLNuvem</ActiveDebugProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
