@@ -6,6 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Senac_ConsultaPrecoProjetado</RootNamespace>
 	  <SatelliteResourceLanguages>none</SatelliteResourceLanguages>
+	  <Authors>Luciano Condé</Authors>
+	  <Copyright>© 2022 - Luciano Condé</Copyright>
+	  <Version>1.0.20</Version>
+	  <Product>Demo de Azure Machine Learning</Product>
   </PropertyGroup>
 
   <ItemGroup>
